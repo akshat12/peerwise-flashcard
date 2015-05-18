@@ -25,6 +25,18 @@ export these questions so that they can be used by later offerings of a course a
 
 7. <b>quiz.php</b> - serves the quiz selected in select.php. This is actually a single long page (to avoid hitting the DB again and again) and divs for previous and next questions are hidden/shown as required.
 
+<h6>Deployment Instructions<h6>
+
+1. Login using the admin interface by navigating to the project root in a web browser
+
+2. Follow the instructions on-screen to add questions to the existing database or create a new database. You can also click on the `Delete Database` button to delete the exising database
+
+3. Modify the existing question tags or assign new tags to questions. 
+
+4. Assign a tag to assign to each of the questions. If you want to do this later, indicate the tag as `Do not Include`. If you wish to delete the question, indicate the tag as `Delete Question` and it will be deleted from the database
+
+5. Once you are done assigning tags, follow the instructions on-screen in order to serve the quizzes will appear
+
 
 
 
